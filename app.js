@@ -4,7 +4,7 @@
 const express = require('express');
 const app = express(); 
 
-app.use(express.static('public')); //Express utiliza los recursos estaticos de public
+app.use(express.static('public'));  //Express utiliza los recursos estaticos de public
 
 // app.get('/', (req, res) => { //Utiliza express para manejar las rutas
 // 	res.end('Works');//Respuesta end: Muestra en pantalla 'works'
